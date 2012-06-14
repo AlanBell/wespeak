@@ -1,1 +1,8 @@
-A web application that you click (or touch) to say words
+A web application that you click (or touch) to say words.
+You can try it out at http://people.ubuntu.com/~alanbell/speak.html
+This uses OpenMary and is currently hard coded to my server http://mumble.libertus.co.uk:59125/ which you can have a play with.
+It includes fancybox at the moment but that may be dropped for licensing problems (does not appear to be GPL3 compatible)
+The core of the application will be GPL3 licensed.
+
+Currently it links to icons on wikimedia commons, they should be pulled into the repo probably.
+
