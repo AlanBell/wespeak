@@ -1,0 +1,84 @@
+<html>
+<head>
+
+
+<script type="text/javascript"  src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+<script type="text/javascript"  src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.18/jquery-ui.min.js"></script>
+<script type="text/javascript" src="fancybox/jquery.fancybox.js"></script>
+<link rel="stylesheet" href="fancybox/jquery.fancybox.css" type="text/css" media="screen" />
+<script type="text/javascript"  src="say.js"></script>
+
+
+</head>
+<style>
+body{
+font-family:"Ubuntu";
+}
+.wordtile{
+border:none;
+width:100px;
+height:180px;
+float:left;
+text-align:center;
+margin:5px;
+padding-top:10px;
+border-radius:15px;
+box-shadow:rgba(0,0,0,0.5) 0px 0px 24px;
+position:relative;
+}
+.wordtile img{width:80px;
+margin:10px;
+position:absolute;
+left:0px;
+bottom:10px;}
+
+.verb{
+background:#e8b7a6;
+}
+.noun{
+background:#89a8cd;
+}
+.other{
+background:#9aeab3;
+}
+</style>
+
+<body>
+
+<h2>Time Words</h2>
+Voice:  <select id="voice" >
+    <option selected="selected" value="dfki-poppy-hsmm">Poppy</option>
+    <option value ="dfki-spike-hsmm">Spike</option>
+    <option value ="dfki-prudence-hsmm">Prudence</option>
+    <option value ="dfki-obadiah-hsmm">Obadiah</option>
+    <option value ="cmu-slt-hsmm">Sarah</option>
+  </select>
+
+<br/>
+<div class="wordtile noun">
+Now
+</div>
+<div class="wordtile noun">
+Hurry up!
+</div>
+
+<div class="wordtile noun">
+Later
+</div>
+
+<div class="wordtile noun">
+Tomorrow
+</div>
+<div class="wordtile noun">
+Lunchtime
+</div>
+<div class="wordtile noun">
+Bedtime
+</div>
+
+
+<script>
+$(document).ready( $(".wordtile").click(function(){say(this)}));
+</script>
+</body>
+</html>
