@@ -42,7 +42,9 @@ background:#89a8cd;
 background:#82a0c3;
 }
 .other{
-background:#9aeab3;
+background:#9aeab3;}
+.frequent{
+background:#faaab3;
 }
 .other:hover{
 background:#92deaa;

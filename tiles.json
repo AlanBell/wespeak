@@ -1,0 +1,88 @@
+{
+  "Jam": {
+    "Title": {
+      "en_gb": "Jam",
+      "en_us": "Jelly"
+    },
+    "Image": "http://imedia.brookes.ac.uk/imageshare/cache/StrawberryJam-200x200.jpg",
+    "lexicalclass": [
+      "noun"
+    ],
+    "position": [
+      3,
+      4
+    ]
+  },
+  "Jelly": {
+    "Title": {
+      "en_gb": "Jelly",
+      "en_us": "Jello"
+    },
+    "Image": "http://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Food-Jelly.svg/120px-Food-Jelly.svg.png",
+    "lexicalclass": [
+      "noun"
+    ]
+  },
+  "biscuit": {
+    "Title": {
+      "en_gb": "Biscuit",
+      "en_us": "Cookie"
+    },
+    "Image": "http://www.nicecupofteaandasitdown.com/biscuits/media/maltedmilk.jpg",
+    "lexicalclass": [
+      "noun"
+    ]
+  },
+  "Laugh": {
+    "Title": {
+      "en_gb": "Hehe",
+      "en_us": "Lol"
+    },
+    "lexicalclass": [
+      "interjection"
+    ]
+  },
+  "Me": {
+    "Title": {
+      "en_gb": "myself",
+      "en_us": "myself"
+    },
+    "lexicalclass": [
+      "person",
+      "noun"
+    ]
+  },
+  "Weather": {
+    "Title": {
+      "en_gb": "myself",
+      "en_us": "myself"
+    },
+    "lexicalclass": [
+      "topic",
+      "noun"
+    ],
+    "subtiles": {
+      "Rain": {
+        "Title": {
+          "en_gb": "Precipitation",
+          "en_us": "Rain"
+        },
+        "lexicalclass": [
+          "noun"
+        ]
+      },
+      "Snow": {
+        "Title": {
+          "en_gb": "Snow",
+          "en_us": "Snow"
+        },
+        "lexicalclass": [
+          "noun"
+        ]
+      }
+    }
+  },
+  "Time": {
+    "Include": "time.json"
+  }
+}
