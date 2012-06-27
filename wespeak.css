@@ -7,7 +7,7 @@ width:100px;
 height:180px;
 float:left;
 text-align:center;
-margin:5px;
+margin:20px;
 cursor: pointer;
 padding-top:10px;
 border-radius:15px;
@@ -43,6 +43,7 @@ background:#82a0c3;
 }
 .other{
 background:#9aeab3;}
+
 .frequent{
 background:#faaab3;
 }

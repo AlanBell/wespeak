@@ -1,6 +1,7 @@
+
 <html>
 <head>
-
+<meta http-equiv="Content-type" content="text/html;charset=UTF-8">
 <link rel="stylesheet" type="text/css" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.7.1/themes/base/jquery-ui.css">
 <script type="text/javascript"  src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
 <script type="text/javascript"  src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.18/jquery-ui.min.js"></script>
@@ -33,34 +34,13 @@ Voice:  <select id="voice" >
     <option value ="cmu-slt-hsmm">Sarah</option>
   </select>
 
-<br/>
+<br style="clear:both;"/>
 <div id="tiles">
-<div>
+</div>
+<br style="clear:both;"/>
+<div id="modifiers" style="display:none;">
+</div>
 
-<p style="clear:both">
-This should work in modern browsers including popups on weather and time subcategories of words. In Firefox the popup vertical size appears to be broken. It was working, not quite sure where I broke it. The concept so far shows static buttons with no special positioning (all float left) and no build up of phrases. It might be nice to assemble a phrase in an edit window and speak it in one go. The icons are from wikimedia commons. Speech synthesis is done by an OpenMary server running on a machine in a datacentre in Germany. It probably works fine on a touchscreen tablet already, seems OK on my phone. To continue this to a point of usefulness it would need:
-<ul>
-<li>
-Some kind of content management system/database rather than static HTML, preferably something where the community can contribute words/icons but configure which ones they take and how their set is configured.
-</li>
-<li>
-A well thought out structure of words and phrases. I put some different colour styles on verbs and nouns, this might be a good or bad idea, I am not sure.
-</li>
-<li>
-Lots of icons.
-</li>
-<li>
-Possibly static positioning of tiles so that things stay where you remember them to be.
-</li>
-<li>
-Settings to change the voice used and tweak things like speed and pitch.
-</li>
-<li>
-GPL3 license to protect against offensive use of patents.
-</li>
-
-</ul>
-</p>
 
 
 <a href="https://github.com/AlanBell/wespeak"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_green_007200.png" alt="Fork me on GitHub"></a>

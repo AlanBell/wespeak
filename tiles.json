@@ -54,8 +54,8 @@
   },
   "Weather": {
     "Title": {
-      "en_gb": "myself",
-      "en_us": "myself"
+      "en_gb": "rain",
+      "en_us": "weather"
     },
     "lexicalclass": [
       "topic",
